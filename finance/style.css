@@ -1,0 +1,351 @@
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  width: 12.5%;
+}
+
+.center {
+  background: linear-gradient(rgb(230, 237, 243) 22%, rgb(164, 208, 229) 100%);
+  width: 75%;
+  margin-top: 20px;
+  box-shadow: 0 0px 20px rgb(0 0 0 / 0.5);
+}
+
+
+.right {
+  width: 12.5%;
+}
+
+.first {
+  padding-top: 20px;
+}
+
+.admin-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.english-title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hindi-title {
+  margin-top: 20px;;
+  text-align: center;
+}
+
+.images {
+  padding: 20px 5px 10px 5px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.education {
+  margin-bottom: 20px;
+}
+
+.opinion {
+  margin-bottom: 20px;
+}
+
+.page-navigation {
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.bottom-half {
+  margin: 0px;
+  padding: 0px;
+}
+
+.middle{
+  margin-left: 40px;
+}
+
+.login {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card {
+  border: 2px solid black;
+}
+.card-header {
+  border-bottom: 2px solid black;
+}
+.card-footer {
+  border-top: 2px solid black;
+}
+
+.view {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.white_link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.green_link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+.green_link:hover {
+  color: white;
+  text-decoration: none;
+}
+.blue_link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+.blue_link:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.fa {
+  color: white;
+}
+
+.black-logo {
+  color: black;
+}
+
+.comment-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+/* Styling for parent comment divs */
+.parent-comment {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 10px;
+  max-width: 35rem;
+  background-color: whitesmoke;
+}
+
+/* Styling for replies and nested replies */
+.reply-container {
+  margin-left: 20px;
+}
+
+
+.pagination .btn {
+  margin-right: 20px; /* Adjust this value to change the space between buttons */
+}
+
+
+/* Style for the parent comment */
+.comment-box.parent-comment {
+  background-color: #FFEF82;
+  border-width: 1px 0 1px 1px 1px;
+}
+.comment-box.parent-comment .card-header{        
+  background-color: #FFEF82;
+}
+.comment-box.parent-comment .card-body{        
+  background-color:#FFEF82;
+}
+.comment-box.parent-comment .card-footer{        
+  background-color: #FFEF82;
+}
+
+/* Style for level-1 replies */
+.comment-box.comment-level-1 {
+  background-color:#FFFFD0;
+  border-width: 1px 0 1px 1px 1px;
+  margin-left: 20px;
+}
+.comment-box.comment-level-1 .card-header{
+  background-color:#FFFFD0;
+}
+.comment-box.comment-level-1 .card-body{
+  background-color:#FFFFD0;
+}
+.comment-box.comment-level-1 .card-footer{
+  background-color:#FFFFD0;
+}
+
+/* Style for level-2 replies */
+.comment-box.comment-level-2 {
+  background-color: white;
+  border-width: 1px 0 1px 1px 1px;
+  margin-left: 20px;
+}
+.comment-box.comment-level-2 .card-header{
+  background-color: white;
+}
+.comment-box.comment-level-2 .card-body{
+  background-color: white;
+}
+.comment-box.comment-level-2 .card-footer{
+  background-color: white;
+}
+
+.parent-comment {
+  border: 1px solid black;
+  margin: 10px 0 0px 10px;
+  padding: 0px 0px 0px 0px;
+  max-width: 35rem;
+  background-color: azure;        
+}
+.comment-text {
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background-color:#FFEFFF;
+}
+
+.dropdown {
+  color: white;
+  background: darkorchid;
+  position: relative;
+  font-size: 16px;
+  perspective: 1000px;
+  z-index: 100;
+}
+
+.dropdown:hover {
+  background: darkorchid;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li {
+  display: flex;
+  color: black;
+  background-color: #FFEFFF;
+  font-size: 16px;
+  opacity: 0;
+}
+
+.dropdown-menu li:hover {
+  background-color: salmon;
+}
+
+.dropdown_menu-1 .dropdown_item-1 {
+  transform-origin: top center;
+  animation: slideDown 300ms 50ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-2 {
+  transform-origin: top center;
+  animation: slideDown 300ms 100ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-3 {
+  transform-origin: top center;
+  animation: slideDown 300ms 150ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-4 {
+  transform-origin: top center;
+  animation: slideDown 300ms 200ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-5 {
+  transform-origin: top center;
+  animation: slideDown 300ms 250ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-6 {
+  transform-origin: top center;
+  animation: slideDown 300ms 300ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-7 {
+  transform-origin: top center;
+  animation: slideDown 300ms 350ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-8 {
+  transform-origin: top center;
+  animation: slideDown 300ms 400ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-9 {
+  transform-origin: top center;
+  animation: slideDown 300ms 450ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-10 {
+  transform-origin: top center;
+  animation: slideDown 300ms 500ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-11 {
+  transform-origin: top center;
+  animation: slideDown 300ms 550ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-12 {
+  transform-origin: top center;
+  animation: slideDown 300ms 600ms ease-in-out forwards;
+}
+.dropdown_menu-1 .dropdown_item-13 {
+  transform-origin: top center;
+  animation: slideDown 300ms 660ms ease-in-out forwards;
+}
+
+@-moz-keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-o-keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+table tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Apply hover effect to table cells */
+table td:hover {
+  background-color: #d4d4d4;
+}
